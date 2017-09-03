@@ -2,9 +2,7 @@ import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-/**
- * Created by Brodull on 03.09.2017.
- */
+
 public class NewJFrame extends JFrame {
 
     Search obj = new Search();

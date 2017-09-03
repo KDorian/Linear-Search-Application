@@ -1,8 +1,5 @@
 import java.util.Arrays;
 
-/**
- * Created by Brodull on 03.09.2017.
- */
 public class Search {
 
     int [] a;
@@ -44,6 +41,6 @@ public class Search {
             str = "The message was found";
         }
 
-        return str + "\nThe time it takes the function to complete: " + elapsedTime + "nanoseconds.";
+        return str + "\nThe time it takes the function to complete: " + elapsedTime + " nanoseconds.";
     }
 }
