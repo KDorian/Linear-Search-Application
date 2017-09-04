@@ -14,6 +14,8 @@ public class NewJFrame extends JFrame {
     private JLabel SetArray;
     private JTextArea Print;
     private JPanel panel;
+    private JTextField Number;
+    private JButton binarySearchButton;
 
 
     public NewJFrame() {
@@ -43,6 +45,19 @@ public class NewJFrame extends JFrame {
                 String a = obj.serialSearch(n);
                 Print.setText(a);
 
+            }
+        });
+        binarySearchButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+                int n;
+
+                String st = Number.getText();
+                n = Integer.parseInt(st);
+
+                String a = obj.binarySearch(n);
+                Print.setText(a);
             }
         });
     }

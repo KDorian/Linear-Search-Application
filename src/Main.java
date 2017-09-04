@@ -1,3 +1,4 @@
+import java.awt.*;
 
 public class Main {
 
@@ -11,7 +12,7 @@ public class Main {
 
         Fr.setSize(600,400);
         Fr.setResizable(false);
-
+        Fr.getContentPane().setBackground(Color.white);
 
     }
 }
